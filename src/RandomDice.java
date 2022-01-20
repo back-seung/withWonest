@@ -1,0 +1,1 @@
+import java.util.Random;public class RandomDice {    private int dice;    public RandomDice() {        this.dice = (int) (Math.random() * 6) + 1;    }    public int makeRandom() {        this.dice = (int) (Math.random() * 6) + 1;        return dice;    }    public int getDice() {        return dice;    }}

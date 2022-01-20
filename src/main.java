@@ -1,0 +1,1 @@
+import lotto.Lottery;public class main {    public static void main(String[] args) {        Lottery myLottery = new Lottery();        int[] mynums = myLottery.getMyLottery();        for (int i = 0; i < mynums.length; i++) {            System.out.println(mynums[i]);        }    }}
