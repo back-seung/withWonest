@@ -1,0 +1,1 @@
+package Test;import obj.Player;public class Test {    public static void main(String[] args) {        Player A = new Player();    }}
